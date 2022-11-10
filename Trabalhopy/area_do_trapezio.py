@@ -6,7 +6,7 @@ altura = float(input("Digite a altura: "))
 
 def areadoTrapezio():
     area = ((baseMaior + baseMenor) * altura) / 2
-    input(f"A área do trapezio é: {area}")
+    print(f"A área do trapezio é: {area}")
 
 areadoTrapezio()
 
